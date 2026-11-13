@@ -2,7 +2,7 @@ from utils import dataframe
 from train import train_model
 from predict import predict_disease
 
-print('I am a disease predictor.')
+print('I am a disease classifier.')
 print(f'Accuracy: {round(train_model() * 100, 2)}%')
 
 all_symptoms = dataframe().columns[1:]
@@ -24,7 +24,7 @@ while online:
                     print(f'Added: {', '.join(symptoms)}.')
                 else:
                     print('I do not recognize this symptom.')
-            print(f'Disease prediction: {predict_disease(symptoms)}.')
+            print(f'Disease classification: {predict_disease(symptoms)}.')
         case ['symptoms']:
             print(f'All symptoms: {', '.join(all_symptoms)}.')
         case _:
