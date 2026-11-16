@@ -5,6 +5,8 @@ A machine learning model that classifies diseases based on symptoms.
 
 This disease classifier is trained on the disease and symptoms dataset 2023 (Stark et al., 2025), found in [this link](https://data.mendeley.com/datasets/2cxccsxydc/1).
 
+To use the model, run the main.py file in the src directory.
+
 ## Methods
 
 A DecisionTreeClassifier was applied on the dataset.
