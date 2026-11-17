@@ -1,4 +1,4 @@
-from utils import dataframe, get_model
+from utils import get_model
 from train import train_model
 from gui import DiseaseClassifier
 
